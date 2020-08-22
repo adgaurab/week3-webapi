@@ -31,7 +31,8 @@ namespace TodoApi
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
             app.UseHttpsRedirection();
 
             app.UseRouting();
